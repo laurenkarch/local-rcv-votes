@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>MAP673 Module 06 Template</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="row bg-dark text-white py-3" id="header">
+      <h1>Map Title</h1>
+    </header>
+
+    <div class="row">
+      <div class="col-md-9 p-0">
+        <div id="map"></div>
+      </div>
+      <div id="content" class="col-md-3 py-2 px-4 overflow-scroll">
+        <h2>About this map</h2>
+        <p>
+          The next day was heavy. With 30 hours to post time I had no press credentials and — according to the sports
+          editor of the Louisville Courier-Journal — no hope at all of getting any. Worse, I needed two sets; one for
+          myself and another for Ralph Steadman, the English illustrator who was coming from London to do some Derby
+          drawings. All I knew about him was that this was his first visit to the United States. And the more I pondered
+          that fact, the more it gave me fear. Would he bear up under the heinous culture shock of being lifted out of
+          London and plunged into a drunken mob scene at the Kentucky Derby? There was no way of knowing. Hopefully, he
+          would arrive at least a day or so ahead, and give himself time to get acclimated. Maybe a few hours of
+          peaceful sightseeing in the Bluegrass country around Lexington. My plan was to pick him up at the airport in
+          the huge Pontiac Ballbuster I'd rented from a used car salesman named Colonel Quick, then whisk him off to
+          some peaceful setting to remind him of England.
+
+
+        </p>
+
+        <p>
+          Colonel Quick had solved the car problem, and money (four times the normal rate) had bought two rooms in a
+          scumbox on the outskirts of town. The only other kink was the task of convincing the moguls at Churchill Downs
+          that Scanlans was such a prestigious sporting journal that common sense compelled them to give us two sets of
+          the best press tickets. This was not easily done. My first call to the publicity office resulted in total
+          failure. The press handler was shocked at the idea that anyone would be stupid enough to apply for press
+          credentials two days before the Derby. “Hell, you can't be serious,” he said. “The deadline was two months
+          ago. The press box is full; there's no more room … and what the hell is Scanlan's Monthly anyway?”
+        </p>
+      </div>
+    </div>
+    <footer class="footer fixed-bottom bg-dark" id="footer">
+      <div class="row">
+        <div class="col-12 text-center text-white pt-2">
+          <h2>© &#8734; 🦋</h2>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.1.1/d3.min.js"
+    integrity="sha512-COTaPOlz12cG4fSfcBsxZsjauBAyldqp+8FQUM/dZHm+ts/jR4AFoJhCqxy8K10Jrf3pojfsbq7fAPTb1XaVkg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

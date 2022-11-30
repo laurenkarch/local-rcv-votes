@@ -1,0 +1,63 @@
+Locality,State,Year,System,Type,Pro,Anti,Name,Elections,Notes,Lat,Long
+Clark County,WA,2022,RCV,Legislative Referral,46796,64274,"Clark County, Amendment 10, Washington, Ranked-Choice Voting Measure",All County Elections,,45.7669047,-122.4940866
+Evanston,IL,2022,RCV,Legislative Referral,22475,4741,"Evanston, Illinois, Ranked-Choice Voting Measure",All City Elections,,42.0447388,-87.6930459
+Fort Collins,CO,2022,RCV,Legislative Referral,39601,28506,Fort Collins Ballot Question 2C,"Mayor, City Council",,40.5508527,-105.0668085
+Multnomah County,OR,2022,RCV,Legislative Referral,233729,104823,Multnomah County Measure 26-232,All County Elections,,45.5093799,-122.4006413
+Ojai,CA,2022,RCV,Legislative Referral,1629,1320,Ojai Measure M,City Council,"This measure did away with City Council wards, implementing instant runoffs for all Council members at-large, instead of electing members by district.",34.4480495,-119.242889
+Portland,MA,2022,RCV,Legislative Referral,20389,11681,Portland Question 4,All Multiseat Elections,"A ""yes"" vote supported authorizing the city to use a proportional ranked choice voting method for elections in which more than one person is to be elected to a single office (i.e. a multiple seat election) and directs the city council to enact an ordinance to establish the proportional ranked choice voting method.",45.5202471,-122.674194
+Portland,OR,2022,RCV,Legislative Referral,162609,117536,Portland Measure 26-228,All City Elections,,45.5202471,-122.674194
+San Juan County,WA,2022,RCV,Legislative Referral,4747,5671,San Juan County Proposition 3,All County Elections,,48.5443087,-122.9919497
+Seattle,WA,2022,RCV or Approval,Citizen Initiative,159843,153937,Seattle Proposition Nos. 1A and 1B,"Primary for Mayor, Primary for City Council, Primary for City Attorney","Proposition 1A, proposed by citizens, proposed ranked choice voting in Seattle's primary elections. Proposition 1B, an alternative proposed by Seattle City Council and Mayor Bruce Harrell, proposed approval voting. The ballot language asked if either proposal should be adopted, and then asked which one should be adopted. RCV won in a landslide.",47.6038321,-122.330062
+Ann Arbor,MI,2021,RCV,Legislative Referral,13293,4958,Ann Arbor Proposal B,"Mayor, City Council",,42.2681569,-83.7312291
+Broomfield,CO,2021,RCV,Legislative Referral,12069,11187,Broomfield Question 2A,"Mayor, City Council",,39.9403995,-105.05208
+Westbrook,MA,2021,RCV,Citizen Initiative,2819,1660,"Westbrook, Maine, Ranked-Choice Voting Initiative","Mayor, City Council, Board of Education",,43.6763036,-70.3663874
+Austin,TX,2021,RCV,Citizen Initiative,87604,63560,Austin Proposition E,All City Elections,"This measure was put on the ballot through a successful indirect initiative petition drive. In Austin, to place an initiated charter amendment on the ballot petitioners must collect 5% of qualified voters of the city or 20,000, whichever number is the smaller. Austinites for Progressive Reform led the Yes on E campaign in support of Proposition E.",30.2711286,-97.7436995
+Burlington,VT,2021,RCV,Legislative Referral,8914,4918,Burlington Question 4,City Council,,44.4761601,-73.212906
+Minnetonka,MN,2020,RCV,Legislative Referral,18475,15293,Minnetonka Question 1,"Mayor, City Council",,44.9405086,-93.4638936
+Bloomington,MN,2020,RCV,Legislative Referral,25339,24158,Bloomington Question 3,"Mayor, City Council",,44.8322405,-93.3204872
+Boulder,CO,2020,RCV,Legislative Referral,42784,11972,Boulder Measure 2E,Mayor,"This measure not only implemented RCV for mayoral elections, it implemented mayoral elections themselves. Under the previous system, the mayor was selected by the city council from among city council members.",40.0154155,-105.270241
+Albany,CA,2020,RCV,Legislative Referral,7155,2610,Albany Measure BB,"City Council, Board of Education",,37.88687,-122.2977475
+Eureka,CA,2020,RCV,Legislative Referral,7083,4519,Eureka Measure C,"Mayor, City Council",,40.7906871,-124.1673746
+St. Louis,MO,2020,Approval,Citizen Initiative,87369,40833,St. Louis Proposition D,"Mayor, Comptroller, Board of Aldermen",,38.6319657,-90.2428756
+New York,NY,2019,RCV,Charter Amendment,510153,182900,New York Ballot Question 1,"Mayor, Public Advocate, Comptroller, Borough President, City Council",The New York City 2019 Charter Revision Commission proposed this charter amendment for voters' consideration. The commission was created by a vote of the city council and was tasked with considering the entire city charter and suggesting revisions for ratification by voters at the November 2019 election.,40.7127281,-74.0060152
+Fargo,ND,2018,Approval,Citizen Initiative,30092,17282,Measure 1: Fargo Approval Voting Initiative,All City Elections,,46.877229,-96.789821
+Memphis,TN,2018,RCV,Legislative Referral,105291,62941,Memphis Ordinance No. 5669,All City Elections,"This defeated initiative actually proposed repealing ranked choice voting, which was passed via a 2008 charter amendment. ",35.1335022,-89.9668758
+Santa Clara,CA,2018,RCV,Charter Amendment,9169,10023,Santa Clara Measure A,City Council,This amendment proposed adopting RCV and also changing the structure of representation on Santa Clara's city council.,37.2333253,-121.6846349
+Arden,DE,,,,,,,Town Council,Adopted in early 20th century.,39.8092794,-75.4865866
+Basalt,CO,,,,,,,Mayor,RCV was adopted in 2002 to be used only in mayoral races with three or more candidates. It was first used in 2020.,43.315471,-112.164417
+Benton County,OR,,,,,,,"County Commissioners, Sheriff",Adopted in 2016,44.494937,-123.4065679
+Berkeley,CA,,,,,,,"Mayor, City Council, City Auditor","Adopted in 2004, used since 2010",37.8753497,-122.2396336
+Cambridge,MA,,,,,,,"City Council, Board of Education",Adopted in 1941,42.3750997,-71.1056157
+Corvallis,OR,,,,,,,City Council,Adopted by City Council in 2022.,44.5645659,-123.2620435
+Carbondale,CO,,,,,,,Mayor,RCV was adopted in 2002 to be used only in mayoral races with three or more candidates. It has not yet gone into use.,37.7274692,-89.216655
+Easthampton,MA,,,,,,,"Mayor, Single-Seat City Council",Adopted in 2019.,42.2689274,-72.6688036
+Eastpointe,MI,,,,,,,At-Large Council,Adopted proportional RCV for 2019 and 2021 at-large city council elections to resolve a federal Voting Rights Act lawsuit. ,42.4683698,-82.9554746
+Palm Desert,CA,,,,,,,City Council,Adopted January 2020 to be used for city council elections as part of a California Voting Rights Act settlement.,33.7288179,-116.382571
+San Francisco,CA,,,,,,,All Single-Seat City Elections,"Adopted in 2002, first used in 2004.",37.7790262,-122.419906
+San Leandro,CA,,,,,,,"Mayor, City Council",Adopted in 2000.,37.7249296,-122.1560768
+St. Paul,MN,,,,,,,"Mayor, City Council",Adopted in 2009,44.9497487,-93.0931028
+Takoma Park,MD,,,,,,,"Mayor, City Council",Adopted in 2006.,38.9778882,-77.0074765
+Telluride,CO,,,,,,,Mayor,Adopted in 2008 for three subsequent mayoral elections with at least three candidates.,37.9374939,-107.812285
+Bluffdale,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.4898176,-111.9392845
+Cottonwood Heights,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.613474,-111.8256464
+Draper,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.5247777,-111.8627989
+Elk Ridge,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.0113439,-111.6768698
+Genola,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",39.9963426,-111.8432692
+Goshen,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",39.9530088,-111.9007716
+Heber,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.506463,-111.4132963
+Lehi,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.3881114,-111.8486019
+Magna,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.7091,-112.1016
+Midvale,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.6149174,-111.9106607
+Millcreek,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.6992918,-111.8555839
+Moab,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",38.5738096,-109.5462146
+Newton,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",41.8627046,-111.9907837
+Nibley,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",41.6745591,-111.8331194
+Payson,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.0443989,-111.7321518
+River Heights,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",41.7218845,-111.8214176
+Riverton,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.5179761,-111.9393701
+Salt Lake City,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.7596198,-111.8867975
+Sandy,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.5710454,-111.8953815
+South Salt Lake,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.7074741,-111.8882709
+Springville,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.1652447,-111.6114726
+Vineyard,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.31512555,-111.7539509
+Woodland Hills,UT,,,,,,,All City Elections,"Twenty-three Utah cities and towns opted into a municipal pilot program authorized by the state legislature, to use RCV for local elections in 2019, 2021, or both.",40.0108771,-111.6489342

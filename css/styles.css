@@ -1,0 +1,28 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+}
+
+h1 {
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+#map {
+  border-bottom: 2px solid rgb(39, 0, 63);
+}
+
+@media screen and (min-width: 768px) {
+  #map {
+    border-bottom: none;
+  }
+
+}
+.state {
+  fill: none;
+  stroke: #eb7f86;
+  stroke-width: 2;
+}
+
