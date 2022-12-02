@@ -47,11 +47,11 @@ h1 {
 }
 
 .pro {
-  background-color: #6e77b0;
+  background-color: #7fbf7b;
 }
 
 .anti {
-  background-color: #d96d02;
+  background-color: #BF7A71;
 }
 
 .pro,
@@ -89,6 +89,5 @@ hr.large {
   display: none;
   width: 260px;
   position: absolute;
-  /* top: 10px;
-    right: 10px; */
+
 }
