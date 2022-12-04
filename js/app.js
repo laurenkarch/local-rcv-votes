@@ -22,6 +22,14 @@
 
     }
 
+    var mymap = L.map("map", {
+        zoomSnap: 0.1,
+        center: [37.8, -96],
+        zoom: 4,
+        zoomControl: false,
+        minZoom: 1,
+        maxZoom: 9,
+    });
    
 
     let myData = {}
@@ -42,21 +50,18 @@
             for (let i of myData.features) {
                 var center = [(i.geometry.coordinates[1]), (i.geometry.coordinates[0])];
 
-                var mymap = L.map("map", {
-                    zoomSnap: 0.1,
-                    center: [37.8, -96],
-                    zoom: 4,
-                    zoomControl: false,
-                    minZoom: 1,
-                    maxZoom: 9,
-                });
+                
                /* var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
                     maxZoom: 19,
                     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
                 }).addTo(map);*/
 
                 // Create a barchart
-                var myPieChart = L.minichart(center, { data: [(i.properties.Pro), (i.properties.Anti)] })
+                var myPieChart = L.minichart(center, { 
+                    // Add options here
+                    data: [(i.properties.Pro), (i.properties.Anti)],
+                    type: 'pie', 
+                })
 
                 mymap.addLayer(myPieChart);
             }
