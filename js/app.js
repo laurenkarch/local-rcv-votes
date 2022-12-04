@@ -57,7 +57,11 @@
                 }).addTo(map);*/
 
                 // Create a barchart
-                var myPieChart = L.minichart(center, { data: [(i.properties.Pro), (i.properties.Anti)] })
+                var myPieChart = L.minichart(center, { 
+                    // Add options here
+                    data: [(i.properties.Pro), (i.properties.Anti)],
+                    type: 'pie', 
+                })
 
                 mymap.addLayer(myPieChart);
             }
