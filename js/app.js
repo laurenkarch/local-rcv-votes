@@ -54,6 +54,8 @@
                     // Add options here
                     data: [(i.properties.Pro), (i.properties.Anti)],
                     type: 'pie',
+                    width:  0.1 * (Math.sqrt(i.properties.Pro)+Math.sqrt(i.properties.Anti)),
+                    colors: ['#7fbf7b','#fffff'],
 
                     
                 })
