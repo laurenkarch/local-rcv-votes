@@ -54,7 +54,7 @@
                     // Add options here
                     data: [(i.properties.Pro), (i.properties.Anti)],
                     type: 'pie',
-                    width:  0.1 * (Math.sqrt(i.properties.Pro)+Math.sqrt(i.properties.Anti)),
+                    width:  0.075 * (Math.sqrt(i.properties.Pro)+Math.sqrt(i.properties.Anti)),
                     colors: ['#7fbf7b','#fffff'],
 
                     
@@ -70,27 +70,28 @@
             console.log(e.error[0].message);
 
         });
-
+    
+        
     let otherData = {}
     omnivore
         .csv("data/RCV_Other.csv")
         .on("ready", function (e) {
+            var markerOptions = {
+                radius: 5,
+                fillColor: "#008837",
+                color: "#000",
+                weight: 0,
+                opacity: 0.75,
+                fillOpacity: 0.75
+            };
         
             console.log(e.target.toGeoJSON());
             otherData = e.target.toGeoJSON();
-            L.geoJSON(otherData).addTo(map);
-            /*for (let i of otherData.features) {
-                console.log(i)
-                console.log(i.geometry.coordinates[0]) //long
-                console.log(i.geometry.coordinates[1]) //lat
-
-            }
-            for (let i of otherData.features) {
-                var center = [(i.geometry.coordinates[1]), (i.geometry.coordinates[0])];}
-                var otherCities = L.circleMarker(center, {
-                    // Add options here
-                })
-                map.addLayer(otherCities);*/
+            L.geoJSON(otherData, {
+                pointToLayer: function (feature, latlng) {
+                    return L.circleMarker(latlng, markerOptions);}
+                }).addTo(map);
+        
 
                 
         })
