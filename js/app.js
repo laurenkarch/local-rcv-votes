@@ -110,7 +110,7 @@
               }
             L.geoJSON(otherData, {
                 pointToLayer: function (feature, latlng) {
-                    return L.circleMarker(latlng, markerOptions).bindPopup(', ');}
+                    return L.circleMarker(latlng, markerOptions).bindPopup(`<class=pro>${i.properties.Locality}, ${i.properties.State}</class><br>${i.properties.Notes}`);}
                     
                 }).addTo(map);
             }
