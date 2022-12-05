@@ -31,6 +31,17 @@
         maxZoom: 9,
     });
 
+    // mapbox API parameters
+  const accessToken = `pk.eyJ1IjoibGF1cmVua2FyY2giLCJhIjoiY2wzd2RtazQyMnV2azNnbXVvcjBteHcwNyJ9.p4zlCc57GpKUgV8dPr4KxA`
+  const yourName = 'laurenkarch'
+  const yourMap = 'clbb0movg000514n1dywxfl9l'
+
+  // request a mapbox raster tile layer and add to map
+  L.tileLayer(`https://api.mapbox.com/styles/v1/laurenkarch/clbb0movg000514n1dywxfl9l/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGF1cmVua2FyY2giLCJhIjoiY2wzd2RtazQyMnV2azNnbXVvcjBteHcwNyJ9.p4zlCc57GpKUgV8dPr4KxA`, {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, and <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18
+  }).addTo(map);
+
     let myData = {}
     omnivore
         .csv("data/RCV_Data.csv")
@@ -56,6 +67,7 @@
                     type: 'pie',
                     width:  0.075 * (Math.sqrt(i.properties.Pro)+Math.sqrt(i.properties.Anti)),
                     colors: ['#7fbf7b','#fffff'],
+                    opacity: 0.75,
 
                     
                 })
