@@ -34,10 +34,10 @@
     // mapbox API parameters
   const accessToken = `pk.eyJ1IjoibGF1cmVua2FyY2giLCJhIjoiY2wzd2RtazQyMnV2azNnbXVvcjBteHcwNyJ9.p4zlCc57GpKUgV8dPr4KxA`
   const yourName = 'laurenkarch'
-  const yourMap = 'clbb0movg000514n1dywxfl9l'
+  const yourMap = 'clbb1oa6o000b14mr6ff3vhiq'
 
   // request a mapbox raster tile layer and add to map
-  L.tileLayer(`https://api.mapbox.com/styles/v1/laurenkarch/clbb0movg000514n1dywxfl9l/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGF1cmVua2FyY2giLCJhIjoiY2wzd2RtazQyMnV2azNnbXVvcjBteHcwNyJ9.p4zlCc57GpKUgV8dPr4KxA`, {
+  L.tileLayer(`https://api.mapbox.com/styles/v1/laurenkarch/clbb1oa6o000b14mr6ff3vhiq/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGF1cmVua2FyY2giLCJhIjoiY2wzd2RtazQyMnV2azNnbXVvcjBteHcwNyJ9.p4zlCc57GpKUgV8dPr4KxA`, {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, and <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18
   }).addTo(map);
@@ -73,9 +73,9 @@
                 })
                 map.addLayer(myPieChart);
                 var popup = L.popup()
-                .setContent("I am a popup.");
+                .setContent(`<class=pro>${i.properties.Locality}, ${i.properties.State}</class><br>${i.properties.Notes}`);
             
-            myPieChart.bindPopup(popup).openPopup();            }
+            myPieChart.bindPopup(popup); }
 
         })
         .on("error", function (e) {
@@ -94,15 +94,26 @@
                 color: "#000",
                 weight: 0,
                 opacity: 0.75,
-                fillOpacity: 0.75
+                fillOpacity: 0.75,
+
             };
         
             console.log(e.target.toGeoJSON());
             otherData = e.target.toGeoJSON();
+            {for (let i of otherData.features) {
+                console.log(i)
+                  console.log(i.properties.Locality)
+                  console.log(i.properties.State)
+                  console.log(i.geometry.coordinates[0]) //long
+                  console.log(i.geometry.coordinates[1]) //lat*/
+  
+              }
             L.geoJSON(otherData, {
                 pointToLayer: function (feature, latlng) {
-                    return L.circleMarker(latlng, markerOptions);}
+                    return L.circleMarker(latlng, markerOptions).bindPopup(', ');}
+                    
                 }).addTo(map);
+            }
         
 
                 
