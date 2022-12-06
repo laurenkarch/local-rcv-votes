@@ -7,8 +7,17 @@ body {
 }
 
 h1 {
+  font-family: 'Ropa Sans', sans-serif;
   color: #616062;
   font-weight: 700;
+}
+
+h3 {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  font-weight: 500;
+  color: #616062;
 }
 
 #map {
@@ -46,13 +55,6 @@ h1 {
   }
 }
 
-.pro {
-  background-color: #7fbf7b;
-}
-
-.anti {
-  background-color: #BF7A71;
-}
 
 .pro,
 .anti {
@@ -79,9 +81,9 @@ hr.large {
 
 .leaflet-container {
   font-family: "Open Sans", sans-serif;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   line-height: 1.4rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 #info {
@@ -90,4 +92,11 @@ hr.large {
   width: 260px;
   position: absolute;
 
+}
+
+#cities {
+  font-family: "Ropa Sans";
+  font-size: 0.7rem;
+  line-height: 1.4rem;
+  font-weight: 500;
 }

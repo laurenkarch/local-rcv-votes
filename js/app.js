@@ -73,7 +73,7 @@
                 })
                 map.addLayer(myPieChart);
                 var popup = L.popup()
-                    .setContent(`${i.properties.Locality}, ${i.properties.State}<br>${i.properties.Notes}`);
+                .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>${i.properties.Notes}`);
 
                 myPieChart.bindPopup(popup);
             }
@@ -122,7 +122,7 @@
                 })
                 map.addLayer(cityMarker);
                 var popup = L.popup()
-                    .setContent(`${i.properties.Locality}, ${i.properties.State}<br>${i.properties.Notes}`);
+                    .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>${i.properties.Notes}`);
 
                 cityMarker.bindPopup(popup);
             }
