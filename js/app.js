@@ -73,7 +73,7 @@
                 })
                 map.addLayer(myPieChart);
                 var popup = L.popup()
-                .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>${i.properties.Notes}`);
+                .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3><label>Type of measure:  </label>  ${i.properties.Type}<br>${i.properties.Notes}`);
 
                 myPieChart.bindPopup(popup);
             }
