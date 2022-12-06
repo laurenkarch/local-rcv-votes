@@ -73,7 +73,10 @@
                 })
                 map.addLayer(myPieChart);
                 var popup = L.popup()
-                .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3><label>Type of measure:  </label>  ${i.properties.Type}<br>${i.properties.Notes}`);
+                .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>
+                <label>Type of measure:  </label>  ${i.properties.Type}<br>
+                <label>Pro-RCV vote percentage:</label> `+Math.round(100*Number(i.properties.Pro)/(Number(i.properties.Pro)+Number(i.properties.Anti)))+
+                `% <br>${i.properties.Notes}`);
 
                 myPieChart.bindPopup(popup);
             }
