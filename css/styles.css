@@ -6,19 +6,33 @@ body {
   font-weight: 300;
 }
 
+a:link {color: #afaeb0}  
+a:active {color: #afaeb0}  
+a:visited {color: #afaeb0}  
+
+
+a:hover {color: #7fbf7b}  
+
+
 h1 {
   font-family: 'Ropa Sans', sans-serif;
   color: #616062;
   font-weight: 700;
 }
+h2 {
+  font-family: 'Ropa Sans', sans-serif;
+  color: #7fbf7b;
+  font-weight: 600;
+}
 
 h3 {
   font-family: "Ropa Sans", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 0.9rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #616062;
 }
+
 
 label {
   font-family: "Ropa Sans", sans-serif;
@@ -64,12 +78,6 @@ label {
 }
 
 
-.pro,
-.anti {
-  color: #fff;
-  font-weight: 700;
-  padding: 0 4px 0 4px;
-}
 
 .legend-large,
 .legend-small {
@@ -92,6 +100,14 @@ hr.large {
   font-size: 0.7rem;
   line-height: 1.4rem;
   font-weight: 500;
+}
+
+#footer {
+  font-family: "Ropa Sans", sans-serif;
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-weight: 300;
+  color: whitesmoke;
 }
 
 #info {

@@ -65,7 +65,7 @@
                     // Add options here
                     data: [(i.properties.Pro), (i.properties.Anti)],
                     type: 'pie',
-                    width: 0.075 * (Math.sqrt(i.properties.Pro) + Math.sqrt(i.properties.Anti)),
+                    width: 0.08 * (Math.sqrt(i.properties.Pro) + Math.sqrt(i.properties.Anti)),
                     colors: ['#7fbf7b', '#fffff'],
                     opacity: 0.75,
 
@@ -73,10 +73,13 @@
                 })
                 map.addLayer(myPieChart);
                 var popup = L.popup()
-                .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>
+                    .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>
+                <h3>${i.properties.Name}, ${i.properties.Year}</h3>
                 <label>Type of measure:  </label>  ${i.properties.Type}<br>
-                <label>Pro-RCV vote percentage:</label> `+Math.round(100*Number(i.properties.Pro)/(Number(i.properties.Pro)+Number(i.properties.Anti)))+
-                `% <br>${i.properties.Notes}`);
+                <label>Ranked choice elections:  </label>  ${i.properties.Elections}<br>
+
+                <label>Pro-RCV vote percentage:</label> `+ Math.round(100 * Number(i.properties.Pro) / (Number(i.properties.Pro) + Number(i.properties.Anti))) +
+                        `% <br>${i.properties.Notes}`);
 
                 myPieChart.bindPopup(popup);
             }
@@ -88,7 +91,7 @@
         });
 
 
-    
+
 
 
     let otherData = {}
@@ -125,7 +128,10 @@
                 })
                 map.addLayer(cityMarker);
                 var popup = L.popup()
-                    .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>${i.properties.Notes}`);
+                    .setContent(`<h3>${i.properties.Locality}, ${i.properties.State}</h3>    
+                    <label>RCV established without recent ballot initiative.</label><br>
+                    <label>Ranked choice elections:  </label>  ${i.properties.Elections}<br>
+${i.properties.Notes}`);
 
                 cityMarker.bindPopup(popup);
             }

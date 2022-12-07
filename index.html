@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ropa+Sans" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 
 
 
@@ -21,7 +21,7 @@
 <body>
   <div class="container-fluid">
     <header class="row bg-dark text-white py-3" id="header">
-      <h1>Map Title</h1>
+      <h1>Municipal Ballot Initiatives on Ranke</h1>
     </header>
 
     <div class="row">
@@ -29,56 +29,81 @@
         <div id="map"></div>
         <!-- legend -->
         <div id="legend" class="shadow-sm p-3 bg-light rounded-2">
-          <div class="leaflet-legend">
-            <h5 class="mb-4">
-              Number of <span class="Pro">pro-RCV</span> and
-              <span class="Anti">Anti</span> in each ballot initiative
-            </h5>
-            <div class="legend-circles position-relative">
-              <div class="legend-large position-absolute"></div>
-              <div class="legend-small position-absolute"></div>
-              <hr class="large" />
-              <div class="legend-large-label position-absolute"></div>
-              <hr class="small" />
-              <div class="legend-small-label position-absolute"></div>
-            </div>
-          </div>
-          <button class="btn btn-primary float-end">Legend</button>
+
         </div>
       </div>
 
       <div id="content" class="col-md-3 py-2 px-4 overflow-scroll">
-        <h2>About this map</h2>
-        <p>
-          The next day was heavy. With 30 hours to post time I had no press credentials and — according to the sports
-          editor of the Louisville Courier-Journal — no hope at all of getting any. Worse, I needed two sets; one for
-          myself and another for Ralph Steadman, the English illustrator who was coming from London to do some Derby
-          drawings. All I knew about him was that this was his first visit to the United States. And the more I pondered
-          that fact, the more it gave me fear. Would he bear up under the heinous culture shock of being lifted out of
-          London and plunged into a drunken mob scene at the Kentucky Derby? There was no way of knowing. Hopefully, he
-          would arrive at least a day or so ahead, and give himself time to get acclimated. Maybe a few hours of
-          peaceful sightseeing in the Bluegrass country around Lexington. My plan was to pick him up at the airport in
-          the huge Pontiac Ballbuster I'd rented from a used car salesman named Colonel Quick, then whisk him off to
-          some peaceful setting to remind him of England.
-
-
+        <h1>Voting for Alternative Voting Systems</h1>
+        <h2>in U.S. Localities</h2>
+        <p>In the 2022 November election, citizens of at least eight municipalities across the United States approved
+          measures to change elections themselves. Specifically, these residents voted for ranked choice voting (RCV).
+          RCV, or instant runoff voting, allows voters to rank all candidates for a given office in order of their
+          preference. Proponents say RCV mitigates the effects of vote-splitting, allows voters to vote for third
+          parties without fear of wasting votes, and encourages consensus.</p>
+        <p>Alternative voting methods have increased in popularity as Americans voice concerns about minority rule in
+          federal, state, and local governments. Today, over <a
+            href="https://www.pewresearch.org/fact-tank/2021/06/29/more-u-s-locations-experimenting-with-alternative-voting-systems/"
+            target="_blank" rel="noopener"><span style="color: #4a6ee0;">250 jurisdictions</a> in the United States use
+          a voting system other than plurality voting. Alaska and Maine use RCV in statewide elections, and dozens of
+          jurisdictions use RCV in federal primaries, local primaries and generals, or for military votes.</p>
+        <p>Since 2018, over two dozen local jurisdictions have switched to RCV or approval voting through ballot
+          initiatives. While ballot initiative rules vary by state, most cities allow for initiatives to go to the
+          ballot through legislative referendum or citizen initiative. Mapping these amendments&ndash;and the cities,
+          counties, and school districts that use RCV&ndash;may inform communities interested in exploring alternative
+          voting methods.</p>
+        <h2>Using this map:</h2>
+        <p>Ballot initiatives on RCV or approval voting, and placed on the ballot between 2018 and 2022, are mapped
+          using pie charts on this map. Localities that use RCV, but did not institute the method through a recent
+          ballot initiative, are also marked.&nbsp;</p>
+          <h2>Voting Methods:</h2>
+          <h3>Plurality Voting:</h3>
+        <p>Plurality voting is the default for most elections in the United States. Plurality voting is an electoral
+          process whereby a candidate who gets the most votes in the election wins&ndash;even if they win with less than
+          50 percent of the vote.</p>
+        <h3>At-Large Plurality Voting:</h3>
+        <p>Under at-large plurality voting, all voters cast their ballots for all candidates in the jurisdiction.
+          At-large voting is common in City Council or Commission elections and is similar to RCV in that voters choose
+          multiple candidates. For example, if five at-large positions are open on a City Council, each voter may vote
+          for up to five candidates. The five candidates receiving the most votes citywide win those seats.</p>
+        <h3>Ranked Choice Voting:</h3>
+        <p>In ranked choice elections, voters rank candidates in order of preference. If no candidate is the top
+          preference for more than 50 percent of voters, an instant runoff process occurs. The candidate with the fewest
+          first-choice votes is eliminated. That candidate&rsquo;s votes are distributed to the candidates listed as a
+          second preference. The process continues until one candidate has gained majority support.</p>
+        <h3>Approval Voting:</h3>
+        <p>Approval voting allows voters to cast votes for as many candidates as they like in a given race rather than
+          just one single candidate. The candidate that receives the most approval votes wins the election, similar to
+          plurality voting.</p>
+        <h3>Proportional Representation:</h3>
+        <p>Under a proportional representation system, legislators are elected in multi-member districts rather than
+          single-member districts. The number of seats won by political parties is proportional to the overall
+          percentage of votes that those voters cast in the election. For example, if there are 10 seats in a district
+          and one party receives 50 percent of the vote and therefore five seats; another party receives 40 percent of
+          the vote and therefore four seats, and a third party receives 10 percent of the vote and therefore one seat.
         </p>
+        <h3>Semi-proportional voting:&nbsp;</h3>
+        <p>Under semi-proportional voting, voters have some number of votes and may distribute them among candidates in
+          a prescribed method. The most common type of semi-proportional voting system is the single non-transferable
+          vote system, in which voters have just one vote for a multi-seat election.</p>
+        <h2>Data sources:</h2>
+        <p>Information used on this map comes from <a href="https://ballotpedia.org/Ranked-choice_voting_(RCV)"
+            target="_blank" rel="noopener">Ballotpedia</a>, <a
+            href="https://fairvote.org/our-reforms/ranked-choice-voting-information/" target="_blank"
+            rel="noopener">Fair Vote</a>, <a
+            href="https://www.pewresearch.org/fact-tank/2021/06/29/more-u-s-locations-experimenting-with-alternative-voting-systems/"
+            target="_blank" rel="noopener">Pew</a>, and local elections websites.</p>
 
-        <p>
-          Colonel Quick had solved the car problem, and money (four times the normal rate) had bought two rooms in a
-          scumbox on the outskirts of town. The only other kink was the task of convincing the moguls at Churchill Downs
-          that Scanlans was such a prestigious sporting journal that common sense compelled them to give us two sets of
-          the best press tickets. This was not easily done. My first call to the publicity office resulted in total
-          failure. The press handler was shocked at the idea that anyone would be stupid enough to apply for press
-          credentials two days before the Derby. “Hell, you can't be serious,” he said. “The deadline was two months
-          ago. The press box is full; there's no more room … and what the hell is Scanlan's Monthly anyway?”
-        </p>
       </div>
     </div>
     <footer class="footer fixed-bottom bg-dark" id="footer">
       <div class="row">
-        <div class="col-12 text-center text-white pt-2">
-          <h2>© &#8734; 🦋</h2>
+        <div class="col-12 text-center text-white pt-1">
+          <footer>Election data from <a href="https://ballotpedia.org/Main_Page"
+              target="_blank">ballotpedia.org</a>🗳️<br>Map by <a href="https://laurenkarch.github.io">Lauren Karch</a>
+            for <a href="https://newmapsplus.as.uky.edu/" target="_blank">New Maps Plus</a> @ the University of
+            Kentucky, with assistance from <a href="http://boydx.github.io/cv/" target="_blank">Boyd Shearer</a>
+          </footer>
         </div>
       </div>
     </footer>
