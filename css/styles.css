@@ -9,10 +9,6 @@ body {
 }
 
 
-html, body, #map {
-  height: 100%;
-  width: 100vw;
-}
 
 a:link {color: #afaeb0}  
 a:active {color: #afaeb0}  
