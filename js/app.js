@@ -26,7 +26,7 @@
         zoomSnap: 0.1,
         center: [37.8, -96],
         zoom: 4,
-        zoomControl: false,
+        zoomControl: true,
         minZoom: 1,
         maxZoom: 9,
     });
