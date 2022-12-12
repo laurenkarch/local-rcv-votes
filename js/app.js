@@ -2,12 +2,14 @@
 
     'use strict';
     adjustHeight();
+    window.addEventListener("resize", adjustHeight);
 
     function adjustHeight() {
         const mapSize = document.querySelector("#map"),
             contentSize = document.querySelector("#content"),
-            removeHeight = document.querySelector("#footer").offsetHeight,
-            resize = window.innerHeight - removeHeight;
+            removeHeight = document.querySelector("footer").offsetHeight,
+            removeHeight2 = document.querySelector("header").offsetHeight,
+            resize = window.innerHeight - removeHeight - removeHeight2;
 
         mapSize.style.height = `${resize}px`;
         console.log(resize);
@@ -15,10 +17,10 @@
             contentSize.style.height = `${resize}px`;
             mapSize.style.height = `${resize}px`;
         } else {
-            contentSize.style.height = `${resize * 0.25}px`;
-            mapSize.style.height = `${resize * 0.75}px`;
+            contentSize.style.height = `${resize * 0.4}px`;
+            mapSize.style.height = `${resize * 0.6}px`;
         }
-        window.addEventListener("resize", adjustHeight);
+        
 
     }
 
