@@ -48,6 +48,7 @@ label {
   height: 75vh;
   border-top: 2px solid black;
   background-color: rgb(220, 220, 220);
+  position: relative;
 }
 
 .leaflet-legend {
@@ -56,6 +57,10 @@ label {
   background-color: darkgray;
   /* Legend is not shown on small screens. */
   display: none;
+  position:absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 3000;
 }
 
 /* Rule to toggle on/off legend. */
@@ -64,8 +69,8 @@ label {
   margin-bottom: 10px;
 }
 
-/* When screen is 768px and wider. */
-@media screen and (min-width: 768px) {
+/* When screen is 992px and wider. */
+@media screen and (min-width: 992px) {
   #map {
       border-top: none;
   }
