@@ -20,7 +20,7 @@
             contentSize.style.height = `${resize * 0.4}px`;
             mapSize.style.height = `${resize * 0.6}px`;
         }
-        
+
 
     }
 
@@ -33,6 +33,8 @@
         maxZoom: 9,
     });
 
+
+
     // mapbox API parameters
     const accessToken = `pk.eyJ1IjoibGF1cmVua2FyY2giLCJhIjoiY2wzd2RtazQyMnV2azNnbXVvcjBteHcwNyJ9.p4zlCc57GpKUgV8dPr4KxA`
     const yourName = 'laurenkarch'
@@ -43,6 +45,9 @@
         attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, and <a href="http://mapbox.com">Mapbox</a>',
         maxZoom: 18
     }).addTo(map);
+
+  
+
 
     let myData = {}
     omnivore
@@ -154,4 +159,6 @@ ${i.properties.Notes}`);
 
 
 
-    ();
+
+
+();
