@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 300" style="enable-background:new 0 0 500 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7FBF7B;}
+	.st1{font-family:'OpenSans-Bold';}
+	.st2{font-size:13.152px;}
+	.st3{opacity:0.8;}
+	.st4{fill:#008837;}
+</style>
+<g>
+	<g>
+		<g>
+			<g>
+				<g>
+					<path d="M140.6,102.2l-50.8,69.9C51.2,144.1,42.7,90,70.7,51.4c16.8-23.2,41.3-35.6,69.9-35.6V102.2z"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<path class="st0" d="M140.6,102.2V15.8c47.7,0,86.4,38.7,86.4,86.4s-38.7,86.4-86.4,86.4c-19.1,0-35.4-5.3-50.8-16.5
+						L140.6,102.2z"/>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+			</g>
+			<g>
+			</g>
+		</g>
+	</g>
+	<text transform="matrix(1.0249 0 0 1 242.6871 78.2715)"><tspan x="0" y="0" class="st1 st2">Ballot initiative regarding RCV in</tspan><tspan x="0" y="15.8" class="st1 st2">local elections, 2018-2022</tspan><tspan x="0" y="47.3" class="st0 st1 st2">Votes for Ranked Choice Voting</tspan><tspan x="0" y="63.1" class="st3 st1 st2">Against Ranked Choice Voting</tspan></text>
+</g>
+<g>
+	<circle class="st4" cx="150.9" cy="244.2" r="22.2"/>
+	<text transform="matrix(1.0249 0 0 1 190.969 244.0575)"><tspan x="0" y="0" class="st1 st2">Locality using RCV in local elections; </tspan><tspan x="0" y="15.8" class="st1 st2">RCV was not passed through a ballot</tspan><tspan x="0" y="31.6" class="st1 st2">initiative in 2018-2022</tspan></text>
+</g>
+</svg>
