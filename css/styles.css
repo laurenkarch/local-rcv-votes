@@ -51,22 +51,30 @@ label {
   position: relative;
 }
 
-.leaflet-legend {
-  width: 280px;
-  height: 180px;
+#legend {
   background-color: darkgray;
-  /* Legend is not shown on small screens. */
-  display: none;
   position:absolute;
   bottom: 10px;
   left: 10px;
   z-index: 3000;
 }
 
+
+.leaflet-legend {
+  width: 280px;
+  height: 180px;
+  /* Legend is not shown on small screens. */
+  display: none;
+}
+
 /* Rule to toggle on/off legend. */
 .show-legend {
   display: block;
   margin-bottom: 10px;
+}
+
+#legend button {
+  display: block;
 }
 
 /* When screen is 992px and wider. */
