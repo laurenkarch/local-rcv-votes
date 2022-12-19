@@ -4,6 +4,13 @@
     adjustHeight();
     window.addEventListener("resize", adjustHeight);
 
+    const button = document.querySelector("#legend button");
+
+    button.addEventListener("click", function () {
+        const legend = document.querySelector(".leaflet-legend");
+        legend.classList.toggle("show-legend");
+    });
+
     function adjustHeight() {
         const mapSize = document.querySelector("#map"),
             contentSize = document.querySelector("#content"),
