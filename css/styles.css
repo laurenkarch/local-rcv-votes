@@ -51,16 +51,20 @@ label {
   position: relative;
 }
 
-.leaflet-legend {
-  width: 240px;
-  height: 180px;
+#legend {
   background-color: darkgray;
-  /* Legend is not shown on small screens. */
-  display: none;
   position:absolute;
   bottom: 10px;
   left: 10px;
   z-index: 3000;
+}
+
+
+.leaflet-legend {
+  width: 280px;
+  height: 180px;
+  /* Legend is not shown on small screens. */
+  display: none;
 }
 
 /* Rule to toggle on/off legend. */
@@ -69,10 +73,8 @@ label {
   margin-bottom: 10px;
 }
 
-.legendimg {
-  max-width: 25%;
- 
-  float: left;
+#legend button {
+  display: block;
 }
 
 /* When screen is 992px and wider. */
@@ -90,7 +92,14 @@ label {
   }
 }
 
+.pie {
+  width: 40px;
+  margin: 0 10px 0 0;
+}
 
+.dot {
+  width: 20px;
+}
 
 .legend-large,
 .legend-small {
