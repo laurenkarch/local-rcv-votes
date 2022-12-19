@@ -69,6 +69,12 @@ label {
   margin-bottom: 10px;
 }
 
+.legendimg {
+  max-width: 25%;
+ 
+  float: left;
+}
+
 /* When screen is 992px and wider. */
 @media screen and (min-width: 992px) {
   #map {
