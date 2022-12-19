@@ -54,15 +54,17 @@ label {
 #legend {
   background-color: darkgray;
   position:absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 5px;
+  left: 5px;
   z-index: 3000;
+  font-size: 0.8rem;
 }
 
 
 .leaflet-legend {
-  width: 280px;
-  height: 180px;
+  width: 300px;
+  height: 150px;
+  text-align: center;
   /* Legend is not shown on small screens. */
   display: none;
 }
@@ -70,7 +72,7 @@ label {
 /* Rule to toggle on/off legend. */
 .show-legend {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 #legend button {
@@ -95,6 +97,7 @@ label {
 .pie {
   width: 40px;
   margin: 0 10px 0 0;
+  
 }
 
 .dot {
@@ -104,7 +107,7 @@ label {
 .legend-large,
 .legend-small {
   border-radius: 50%;
-  border: 1px solid #000;
+  border: 0px;
 }
 
 hr.small,

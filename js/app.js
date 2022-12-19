@@ -34,7 +34,7 @@
     var map = L.map("map", {
         zoomSnap: 0.1,
         center: [37.8, -96],
-        zoom: 4,
+        zoom: 4.5,
         zoomControl: true,
         minZoom: 1,
         maxZoom: 9,
