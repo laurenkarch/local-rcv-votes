@@ -1,0 +1,9 @@
+{
+    "title": "Local RCV Ballot Initiatives",
+    "info": "This map shows local ballot measures pertaining to electoral systems in municipalities across the United States from 2018 through 2022, specifically ballot measures with a yes-no vote on ranked choice voting (RCV) or similar electoral systems."
+    ,
+    "coordinates": [37.8, -96],
+  
+    "author": "Lauren Karch", 
+    "link": "https://laurenkarch.github.io/local-rcv-votes/"
+  }
